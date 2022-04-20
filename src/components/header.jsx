@@ -1,7 +1,7 @@
 export const Header = (props) => {
   return (
       <div className='flex-box'>
-      <img className='description-logo' src={"img/PATIO-nobg.png"}/>
+      <img className='description-logo' src={"img/PATIO-nobg.png"} alt="Patio logo"/>
       <div className='description-content'>
               <h1>
                   {props.data ? props.data.title : 'Loading'}
