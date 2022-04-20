@@ -227,6 +227,7 @@ video.bg-video {
     background-image: none;
     background-color: #fff;
     color: var(--bs-brick1);
+    cursor: pointer;
   }
   .btn:active,
   .btn.active {
